@@ -27,7 +27,7 @@ def mkjar():
 
 def test():
     require(mkjar)
-    junit_runner('cs601.collections.TestMap',
+    junit_runner('cs601.collections.TestGraph',
 	cp="lib/graph-tests.jar:dist/graph.jar:/tmp/junit-4.10.jar")
 
 def all():
