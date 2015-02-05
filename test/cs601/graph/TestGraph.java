@@ -1,3 +1,5 @@
+package cs601.graph;
+
 import junit.framework.TestCase;
 
 import java.io.IOException;

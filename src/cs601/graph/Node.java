@@ -1,3 +1,5 @@
+package cs601.graph;
+
 import java.util.Iterator;
 
 public interface Node<ID extends Comparable> extends Comparable<Node<ID>> {
