@@ -28,4 +28,7 @@ public interface Node<ID extends Comparable> extends Comparable<Node<ID>> {
 	 *  are no nodes. This makes it easy to implement many of the algorithms.
 	 */
 	public Iterable<ID> edges();
+
+	/** Return the node's name as a String */
+	public String toString();
 }
